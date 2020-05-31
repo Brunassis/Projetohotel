@@ -1,2 +1,2 @@
-# Hotel-NODE
+# Projetohotel
 desenvolvimento web
