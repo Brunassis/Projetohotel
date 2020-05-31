@@ -8,12 +8,12 @@ class App{
 
     constructor(){
 
-    this.app=express(); //Instanciando o atributo app como um objeto da classe express();
-    mongoose.set('useNewUrlParser', true);
+    this.app=express(); //Instanciano o atributo app como um objeto da classe express();
+    mongoose.set('userNewUrlParser', true);
     mongoose.set('useFindAndModify', false);
-    mongoose.set('useCreateIndex', true);
+    mongoose.set('userCreateIndex', true);
     mongoose.set('useUnifiedTopology', true);
-    mongoose.connect('mongodb+srv://Bruna:<password>@cluster1-brfqp.gcp.mongodb.net/test?retryWrites=true&w=majority', 
+ mongoose.connect('mongodb+srv://Bruna:<password>@cluster1-brfqp.gcp.mongodb.net/test?retryWrites=true&w=majority', 
     {
         useNewUrlParser: true,
         useUnfiedTopology: true,
